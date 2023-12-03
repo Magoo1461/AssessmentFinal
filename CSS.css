@@ -1,0 +1,386 @@
+/* Add styling for the active menu item */
+.top-menu a.active {
+  background-color: #ffcc00;
+  color: black;
+}
+
+/* Reset some default margin and padding */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the wrapper */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Style the top-level navigation menu */
+.top-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+
+.top-menu li {
+  margin: 0;
+  padding: 0;
+}
+
+.top-menu li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+.top-menu li a:hover {
+  background-color: #ffcc00;
+  color: black;
+}
+
+/* Style the search bar */
+.search-bar {
+  background-color: #333;
+  padding: 10px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  border: none;
+  padding: 8px;
+  margin: 0;
+  width: 200px;
+}
+
+.search-bar button {
+  background-color: #ffcc00;
+  color: #333;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.search-bar button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Style the banner section */
+.banner {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+  border: 10px solid #ffcc00;
+}
+
+/* Styling for unselected hyperlinks in the banner section */
+.banner a {
+  color: white !important;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.banner a:hover {
+  color: #ffcc00 !important;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Add a class to style the "Latest Arrivals" link in the banner */
+.banner .latest-arrivals-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.banner .latest-arrivals-link:hover {
+  color: #ffcc00;
+}
+
+/* Style the welcome box */
+.welcome-box {
+  background-color: #555;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 50px auto;
+}
+
+/* Style the welcome section */
+#Welcome {
+  /* Welcome section styling */
+}
+
+/* Style the feedback box */
+.feedback-box {
+  background-color: #555;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 50px auto;
+  width: 80%;
+}
+
+.feedback-box h1 {
+  font-size: 24px;
+}
+
+.feedback-box form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feedback-box label {
+  margin-top: 10px;
+}
+
+.feedback-box input,
+.feedback-box textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.feedback-box textarea {
+  height: 150px;
+}
+
+.feedback-box input[type="submit"] {
+  background-color: #ffcc00;
+  color: black;
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.feedback-box input[type="submit"]:hover {
+  background-color: #333;
+  color: white;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: yellow;
+}
+
+/* Style the contact box */
+.contact-box {
+  background-color: #555;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 50px auto;
+}
+
+/* Style the contact details */
+#ContactDetails {
+  flex: 1;
+  text-align: left;
+}
+
+/* Style the Google Map */
+.google-map {
+  flex: 1;
+  margin-left: 20px;
+}
+
+/* Add styling for the login box */
+.login-box {
+  background-color: #555;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 50px auto;
+}
+
+/* Add styling for the login section */
+#Login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Login form {
+  margin-top: 20px;
+}
+
+#Login label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#Login input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#Login input[type="submit"] {
+  background-color: #ffcc00;
+  color: black;
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#Login input[type="submit"]:hover {
+  background-color: #333;
+  color: white;
+}
+
+/* Add styling for the wishlist table */
+.wishlist-table {
+  background-color: #555;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 50px auto;
+  width: 80%;
+}
+
+.wishlist-table h1 {
+  margin-bottom: 20px;
+}
+
+.wishlist-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.wishlist-table th,
+.wishlist-table td {
+  border: 1px solid white;
+  padding: 20px;
+}
+
+.wishlist-table th {
+  background-color: #333;
+}
+
+/* Style the product section */
+.product-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+/* Style the shoes sections */
+.shoes-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Style the product box */
+.product-box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  width: 300px;
+}
+
+.product-box img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product-box h2 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.product-box p {
+  margin: 5px 0;
+}
+
+.product-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.product-box ul li {
+  margin: 5px 0;
+}
+
+.buy-button,
+.wishlist-button {
+  background-color: #ffcc00;
+  color: #333;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.buy-button:hover,
+.wishlist-button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Style the section headings */
+.section-heading {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
